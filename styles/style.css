@@ -48,12 +48,13 @@ ol {
 } 
 
 .content {
-  margin: 0;
+  margin: auto;
   padding: 133px 30px;
-  inline-size: 1140px;
+  max-width: 1140px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 30px;
 }
 
